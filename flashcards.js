@@ -34,7 +34,7 @@ ClozeCard.prototype.partial = function () {
 		return this.fullText.replace(this.cloze, "...");
 	}	
 	else {
-	return "This does not work. Try again!";
+		return "This does not work. Try again!";
 	}
 }
 
