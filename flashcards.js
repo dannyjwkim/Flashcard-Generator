@@ -32,7 +32,8 @@ console.log(firstClozeCard.fullText);
 ClozeCard.prototype.partial = function () {
 	if (this.fullText.includes(this.cloze)){
 		return this.fullText.replace(this.cloze, "...");
-	}	else {
+	}	
+	else {
 	return "This does not work. Try again!";
 	}
 }
